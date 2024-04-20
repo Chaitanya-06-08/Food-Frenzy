@@ -1,0 +1,73 @@
+.SearchBar,.FilteredItems{
+    background-color: white;
+    width: 38vw;
+}
+.SearchBar{
+    height: 6rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.FilteredItems{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 38vw;
+    /* padding: 1.5rem; */
+    margin: 0.5rem auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 35rem;
+    overflow-y: scroll; */
+}
+.SearchItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 90%;
+    height: 7.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.SearchImg{
+    width: 7rem;
+    height: 5.5rem;
+    border-radius: 15px;
+}
+.searchInput{
+    width: 40rem;
+    height: 5rem;
+    border-radius: 8px;
+    padding: 0 1rem;
+    color: #FC8D19;
+    font-size: x-large;
+    border: none;
+    font-family: 'Silkscreen', sans-serif;
+    transition: all 0.5s;
+}
+.SearchIcon,.CloseIcon{
+    font-size: 2rem;
+    color: #FC8D19;
+    cursor: pointer;
+}
+.searchInput::placeholder{
+    color: #FC8D19;
+}
+.searchInput:active{
+    scale: 0.95;
+    border: none;
+}
+
+.msg{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,129 @@
+.contentWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.content{
+  padding: 1rem;
+  width: 50%;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 #cccccc;
+  transition: transform 0.8s;
+  animation: drop-right 1s;
+}
+.content > p > a{
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bolder;
+  font-style: italic;
+  transition: font-size 0.5s;
+}
+.content > p > a:hover{
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.deliveryImage{
+  /* width: 50%; */
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.8s;
+  animation: drop-left 1s;
+  /* animation: bounce linear infinite alternate; */
+}
+.deliveryImage > img{
+  width: 25rem;
+  height: 22rem;
+  border-radius: 15%;
+  animation: bounce ;
+  position: relative;
+}
+.deliveryImage:hover,.content:hover{
+  transform: translateY(-5%);
+}
+@keyframes drop-right {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes drop-left {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes bounce {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(10%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .background {
+  height: 42rem;
+  background-image: url(meals.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.contentWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.backgroundImg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.Content {
+  position: absolute;
+  top: 8rem;
+  z-index: 5;
+  color: #FC8D19;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: auto;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.5s;
+} */

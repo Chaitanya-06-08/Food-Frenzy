@@ -1,0 +1,87 @@
+.cardOutline{
+    width: 28rem;
+    height: 39rem;
+    background-color: white;
+    border-radius: 15px;
+    margin: 2px 0;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 150ms;
+    /* cursor: pointer; */
+}
+.foodImg{
+    border-radius: 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    max-width: 450px;
+    max-height: 275px;
+    overflow: hidden;
+}
+.cardOutline:hover {
+    scale: 0.95;
+}
+
+.foodHeading{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 0 0.5rem; */
+    font-size: large;
+}
+.price{
+    font-weight: bolder;
+    color: black;
+    font-size: x-large;
+}
+.rating{
+    background-color: #008600;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.categoryandprice{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: medium;
+    color: #939191;
+    font-weight: bolder;
+}
+.description{
+    color: #FC8D19;
+    font-size: 1rem;
+    text-align: center;
+    height: 5rem;
+}
+.addToCart{
+    background-color: #FC8D19;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    font-weight:lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms;
+    padding: 0.65rem;
+    font-family: 'Silkscreen', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .addToCart:hover{
+    scale: 1.05;
+} */
+.addToCart:active{
+    scale: 0.90;
+}
+.deliveryTime{
+    font-size: medium;
+    color: #939191;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

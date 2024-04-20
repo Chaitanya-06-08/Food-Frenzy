@@ -1,0 +1,16 @@
+.Notification{
+  color: white;
+  background-color: #FC8D19;
+  padding: 1.5rem;
+  font-size: 1.65rem;
+  font-family: 'Silkscreen', sans-serif;
+  border-radius: 8px;
+}
+.NotificationProgressBar{
+  background-color: #FC8D19;
+  height: 5rem;
+}
+.ToastWrapper{
+  border-radius: 8px;
+  background-color: #FC8D19;
+}

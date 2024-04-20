@@ -1,0 +1,41 @@
+.categoryListWrapper {
+  width: 80vw;
+  height: 40vh;
+  margin: 5rem auto;
+  background-color: transparent;
+}
+.categoryHeader {
+  margin-left: 1rem;
+}
+.categoryListWrapper > h1 {
+  color: #fc8d19;
+  transition: all 1s;
+  width: fit-content;
+  cursor: pointer;
+}
+.UnderLine {
+  width: 25vw;
+  padding: 0.2rem;
+  background-color: #fc8d19;
+  transition: all 250ms;
+}
+.categoryListWrapper > h1:hover + .UnderLine {
+  width: 30vw;
+  padding: 0.2rem;
+  background-color: #fc8d19;
+  /* animation: widthIncrease linear 1s; */
+}
+/* @keyframes widthIncrease {
+  
+  to {
+    width: 30vw;
+  }
+} */
+.categoriesWrapper {
+  display: flex;
+  align-items: center;
+  width: 67vw;
+  margin: 2rem auto;
+  justify-content: space-around;
+  gap: 0.5rem;
+}

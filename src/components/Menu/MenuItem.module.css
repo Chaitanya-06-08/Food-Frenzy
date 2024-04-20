@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 5px 5px; */
+    padding: 0px 40px;
+    border-bottom: 2px solid rgb(198, 194, 194);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    justify-content: space-evenly;
+}
+.quantityInput{
+    max-width: 45px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 0px 3px;
+    font-weight: bolder;
+}
+.quantity{
+
+}

@@ -1,0 +1,197 @@
+.headerOuterWrapper{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    background-color: var(--secondary-color);
+    animation: drop-down 1s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@keyframes drop-down {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.appLogo,.navigationBar{
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+.navigationBar{
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+.appLogo{
+    padding: 0 2rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+.appLogo > img{
+    cursor: pointer;
+}
+.appLogo > h1{
+    cursor: pointer;
+}
+.appLogo > img{
+    width: 4.5rem;
+    height: 5rem;
+    background-color: transparent;
+}
+.navigationBar{
+    margin-right: 0.5rem;
+}
+.navigationBar > ul{
+    list-style-type: none ;
+    font-size: var(--normal-font-size);
+    font-weight: bolder;
+}
+.navigationBar > ul > li > a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.navLinks,.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.navLinks{
+    gap: 2rem;
+}
+.navLinks > li:hover{
+    text-decoration: underline;
+}
+.auth > li > a{
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 3rem;
+    margin: 0 0.25rem;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.auth > li :hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+.cart{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.count{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+}
+.cart:hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .headerItem{
+    width: 33.333333333%;
+}
+.name{
+    cursor: pointer;
+    transition: all 100ms;
+    animation: scaling 2s ;
+    animation-timeline:scroll() ;
+    text-align: center;
+    font-style: italic;
+}
+@keyframes scaling {
+    from{
+        scale : 0.80;
+    }
+    to{
+        scale : 0.9;
+    }
+}
+.App_Logo{
+    width: 4.75rem;
+    height: 4.5rem;
+    scale: 3.0;
+}
+.headerInnerWrapper{
+    height: 10rem;
+    background: white;
+    color: #fc8d19;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 1.75rem;
+    justify-content: center;
+    gap: 1.7rem;
+}
+.controlIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.4rem;
+}
+.cart:hover{
+    border-radius: 10px;
+    background-color: #fc8d19;
+    color: white;
+}
+.carticon{
+    font-size: xx-large;
+}
+.helpicon{
+    font-size: inherit;
+}
+span{
+    margin: 0px 3px;
+}
+.count{
+    border-radius: 15px;
+    border:3px solid #fc8d19;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}  */

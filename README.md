@@ -45,16 +45,12 @@ Food Frenzy is an online food ordering platform designed to provide users with a
    ```
    npm install
    ```
-   
-4. Set up environment variables:
-   - Create a `.env` file in the root directory.
-   - Add your MongoDB connection string, Stripe/PayPal API keys, and other necessary environment variables.
 
-5. Start the server:
+4. Start the server:
    ```
    npm start
    ```
    
-6. Open `http://localhost:3000` in your browser to access Food Frenzy.
+5. Open `http://localhost:3000` in your browser to access Food Frenzy.
 
 Thank you for reading this.
